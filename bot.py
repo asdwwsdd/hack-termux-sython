@@ -9,12 +9,12 @@ from telethon import TelegramClient, events, functions, types, Button
 from datetime import timedelta
 import asyncio
 
-API_ID = ("19662621")
+API_ID = ("26403694")
 import os, asyncio, re
 from os import system
 from telethon.tl.types import ChannelParticipantsAdmins, ChannelParticipantAdmin, ChannelParticipantCreator
-API_HASH = ("24c2270e7f1336eb59ca6c48e42ec6ca")
-token = os.environ.get("6099693133:AAHQ0eLkiXs4oPLvvxiALh6YIm9N_6qaaDI")
+API_HASH = ("42b2bebd42b2e8be2feffd6f48efac27")
+token = os.environ.get("2103714439:AAEzEQZlklf3QwoCHao9CuKILtJqYR2vpcA")
 client = TelegramClient('ArabicHack', 19662621, "24c2270e7f1336eb59ca6c48e42ec6ca").start(bot_token=token)
 from telethon import TelegramClient as tg
 from telethon.tl.functions.channels import GetAdminedPublicChannelsRequest as pc, JoinChannelRequest as join, LeaveChannelRequest as leave, DeleteChannelRequest as dc
@@ -24,13 +24,13 @@ import telethon;from telethon import functions
 from telethon.tl.types import ChannelParticipantsAdmins as cpa
 
 from telethon.tl.functions.channels import CreateChannelRequest as ccr
-mybot = os.environ.get("USERBOT")
+mybot = os.environ.get("hrbbb_Bot")
 bot = borg = client
 
-ArabicHack = 5159123009
+ArabicHack = 999209897
 
-api_id = ("19662621")
-api_hash = ("24c2270e7f1336eb59ca6c48e42ec6ca")
+api_id = ("26403694")
+api_hash = 42b2bebd42b2e8be2feffd6f48efac27
 
 Bot_Username =(mybot , None) or "tmux_sythonbot"
 
